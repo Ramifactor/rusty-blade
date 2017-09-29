@@ -1,4 +1,4 @@
-# rustyblade
+# Rusty Blade Source Code
 
 #### This is the official home of the Source Code for Rusty Blade, an entry created for AGBICjam 2017.
 
