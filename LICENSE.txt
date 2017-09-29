@@ -1,0 +1,119 @@
+
+=============================
+Rusty Blade User License v1.0
+=============================
+
+Copyright (c) 2017 John Damiani.
+
+Last Updated September 29th, 2017
+
+Everyone is permitted to copy and distribute verbatim copies of this license document; however,
+changing it is not permitted.
+
+
+Definitions:
+
+"Ramifactor" is defined as John Damiani.
+
+"Package" means the collection of files distributed by Ramifactor, and derivatives of that 
+collection and/or of those files. A given Package may consist of either the Standard Version, 
+or a Modified Version.
+
+"Standard Version" refers to the Package if it has not been modified, or has been modified only
+in ways explicitly requested by Ramifactor.
+
+"Modified Version" means the Package, if it has been changed, and such changes were not 
+explicitly implemeted or requested by Ramifactor.
+
+The "Game" is defined as the application entitled "Rusty Blade", its source code, and all 
+related files contained within the Package.
+
+The "Game Assets" are defined as the image files and sound files included and associated with 
+the Game.
+
+The "Source Code" is defined as all of the .gmx files for the Game. The Source Code does not 
+include any of the Game Assets.
+
+The "Intellectual Property" is defined as the Rusty Blade property, including, but not limited 
+to, the Game Assets, name, logo, all characters, character names, story and visual identity of 
+the Game.
+
+"Distribute" and "Distribution" means providing a copy of the Game or making it accessible to 
+any other person, or in the case of a company or organization, to others outside of your 
+company or organization.
+
+"You" and "your" is defined as any person intending to copy, distribute, or modify the Source 
+Code for any purpose.
+
+
+Preamble:
+
+As of September 29th, 2017, the .gmx files for Rusty Blade are hereby released to the public, 
+free of charge.
+
+Due to the nature of the A Game By It's Cover Jam 2017 for which the Game was originally 
+created, only the Source Code created by Ramifactor is included under this license. The Game 
+and it's Source Code are being provided for the purposes of education and entertainment. 
+
+Commercial use of the Source Code is also authorized, but please keep in mind the following:
+
+   a) I have no idea what I'm doing, so you are using the code at your own risk.
+
+   b) This license does not include any intellectual property of, or related to, Rusty Blade or 
+   Ramifactor, nor any of their associated logos, visual identities, images or audio files. 
+
+   c) The Rusty Blade name, concept description and My Famicase Exhibition 2017 cartridge design 
+   are Copyright (c) 2017 Daniel Ponce and not included in this license.
+
+This license does not authorize you to distribute the Game in any way, unless it does not 
+include any of the Intellectual Property or Game Assets. 
+
+
+Rights Granted:
+
+You may modify and redistribute the Source Code under the following conditions:
+
+(1)  You are permitted to use the Source Code and create, use and share Modified Versions for 
+any purpose without restriction, provided that you do not Distribute the Game itself.
+
+(2)  You are not permitted to use, share or claim ownership of any of the Game Assets or the 
+Intellectual Property, nor any trademark, service mark, tradename, or logo of Ramifactor.
+
+(3)  If you share a modified version of the Source Code with others, you must not present it as
+an unmodified, or official, version of the Game or the Source code. It must be clearly 
+identified as modified from the original version. 
+
+
+General Provisions:
+
+(4)  Any use, modification, and distribution of the Source Code and Modified Versions is 
+governed by this license. By using, modifying or distributing the Source Code, you accept this 
+license. Do not use, modify, or distribute the Source Code if you do not accept this license.
+
+(5)  By accepting this license you are agreeing not to restrict or prevent Ramifactor from 
+using, modifying or adding to the Game, the Game Assets, the Source Code and the Intellectual 
+Property in any way.
+
+(6)  If your Modified Version has been derived from a Modified Version made by someone other 
+than you, you are nevertheless required to ensure that your Modified Version complies with the 
+requirements of this license.
+
+(7)  This license does not grant you the right to use the Game Assets, the Intellectual 
+Property, nor any trademark, service mark, tradename, or logo of Ramifactor.
+
+(8)  This license includes the non-exclusive, worldwide, free-of-charge patent license to make, 
+have made, use, offer to sell, sell, import and otherwise transfer the Source Code with respect 
+to any patent claims licensable by Ramifactor that are necessarily infringed by the Game. If you 
+institute patent litigation (including a cross-claim or counterclaim) against any party alleging 
+that the Game constitutes direct or contributory patent infringement, then this license to you 
+shall terminate on the date that such litigation is filed.
+
+
+Disclaimer of Warranty:
+
+(9) THE SOURCE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOURCE CODE OR THE USE OR OTHER DEALINGS IN THE 
+SOURCE CODE.
