@@ -4,7 +4,7 @@
 
 Please read the attached LICENSE.txt if you are considering using this work for your project. If you have plans for a project and you want to use assets from the game or anything else not covered by the license, please contact me or create a topic in the [Rusty Blade Community](https://ramifactor.itch.io/rusty-blade/community). 
 
-### Download the game for free: [Rusty Blade on itch.io](https://ramifactor.itch.io/rusty-blade)
+### Download the game for free: [Rusty Blade (itch.io)](https://ramifactor.itch.io/rusty-blade)
 
 * Game discussion: https://ramifactor.itch.io/rusty-blade/community
 * Contact: @Ramifactor or email info@ramifactor.com
