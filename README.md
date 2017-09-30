@@ -4,9 +4,7 @@
 
 The game **source code** is being released under a free license to satisfy the [Remember to FLOSS!](http://itch.io/jam/a-game-by-its-cover-2017/topic/140342/diversifiers) diversifier requirement of the game jam. 
 
-Please read the attached [LICENSE.txt](LICENSE.txt) if you are considering using this work for your project. 
-
-If you have plans for a project and you want to use assets from the game or anything else not covered by the license, please contact me to discuss, or create a topic in the [Rusty Blade Community](http://ramifactor.itch.io/rusty-blade/community). 
+Please read the attached [LICENSE.txt](LICENSE.txt) if you are considering using this work for your project.
 
 ### Disclaimer: I suck at this
 
