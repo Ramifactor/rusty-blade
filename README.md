@@ -16,7 +16,7 @@ As a general rule, I have no idea what I'm doing. The source code is a product o
 * Contact: [@Ramifactor](http://twitter.com/ramifactor) or email info@ramifactor.com
 * Special thanks to Ludonaut and Dom for hosting AGBICjam 2017
 
-### Credits
+### Game Credits
 * Original Famicase design and game concept (tagline) (c) 2017 Daniel Ponce. Used with permission.
 * Source code and graphical assets created and developed by Ramifactor
 * Music by Scott Buckley - www.scottbuckley.com.au
