@@ -1,9 +1,4 @@
 ///scr_camera_track_player()
-
-// Adjust position
-//x = obj_player.x;
-//y = obj_player.y;
-
 cam_dist_x = obj_player.x + (obj_player.movedir_x * cam_offset_x);
 cam_dist_y = obj_player.y - cam_offset_y;
 
