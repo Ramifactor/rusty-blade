@@ -1,5 +1,4 @@
 ///scr_camera_init()
-
 view_zoom = 2;
 view_zoom_max = 4;
 
