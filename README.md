@@ -2,7 +2,7 @@
 
 #### This is the official home of the GameMaker Source Code for Rusty Blade, a game created by Ramifactor for AGBIC 2017.
 
-Current Version: 1.3
+**Current Version: 1.3**
 
 The game **source code** is being released under a free license to satisfy the [Remember to FLOSS!](http://itch.io/jam/a-game-by-its-cover-2017/topic/140342/diversifiers) diversifier requirement of the game jam. 
 
