@@ -6,15 +6,6 @@ swing = irandom(1);
 if (swing == 0) soundtoplay = snd_sword_swing_1;
 else soundtoplay = snd_sword_swing_2;
 
-if (iamdead) 
-    {
-    image_blend = c_red; 
-    sprite_index = spr_player_idle; 
-    image_speed = 0; 
-    }    
-else image_blend = c_white;
-
-
 if (playerstate == STATE_PLAYER.carry)
     {
     if (hspd == 0)

@@ -19,7 +19,7 @@ draw_text(16,96, "x: " + string(x) + "  y: " + string(y) + "    movedir_x = " + 
 draw_set_color(c_blue);
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
-draw_text(display_get_gui_width() - 5, display_get_gui_height() - 5, "FPS: " + string(fps_real));
+draw_text(display_get_gui_width() - 5, display_get_gui_height() - 5, "FPS: " + string(fps_snapshot));
 
 with(obj_menu)
     {

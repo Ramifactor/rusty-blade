@@ -50,10 +50,7 @@ attack_started = false;
 antler_held = false;
 key_held = false;
 drinking = false;
+drink_delay = false;
 
 //Unmute SFX
 alarm_set(2, 30);
-
-//Death
-iamdead = false;
-

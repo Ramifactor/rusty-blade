@@ -31,7 +31,8 @@ with (my_arrow)
     my_owner = other.id;
     image_alpha = 0; 
     }
-    
+
+//States
 happy = false;
 sniffing = false;
 sitting = false;
