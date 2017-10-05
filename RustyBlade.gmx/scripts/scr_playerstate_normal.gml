@@ -7,7 +7,7 @@ scr_player_movecollide();
 
 // SPECIAL PLAYER STATES ---------------------------------------------------------------|
 
-if (!menu_open && input_B2_p && !drinking && !obj_dog_bone.held_player)
+if (!menu_open && input_B2_p && !drinking && !drink_delay && !obj_dog_bone.held_player)
     {
     hspd = 0;
     drinking = true;
