@@ -60,7 +60,7 @@ if (grounded &amp;&amp; yprevious != y)
 
 scr_item_show_arrow();
 
-if (player_here &amp;&amp; input_padD_p)
+if (!menu_open &amp;&amp; player_here &amp;&amp; input_padD_p)
     {
     audio_play_sound(snd_item_pickup_1, 10, false);
     with (obj_player) { key_held = true; }

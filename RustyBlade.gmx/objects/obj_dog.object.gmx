@@ -47,6 +47,30 @@ timeline_running = false;
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///End pet delay
+pet_delay = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="6">
       <action>
         <libid>1</libid>
@@ -300,7 +324,7 @@ if (obj_player.playerstate == STATE_PLAYER.combat &amp;&amp; !run_away)
     run_away = true;
     alarm_set(5, 15);
     }
-else if (player_here &amp;&amp; input_padD_p &amp;&amp; !happy &amp;&amp; !pet_delay &amp;&amp; hspd == 0) //pet
+else if (!menu_open &amp;&amp; player_here &amp;&amp; input_padD_p &amp;&amp; !happy &amp;&amp; !pet_delay &amp;&amp; hspd == 0) //pet
     {
     audio_play_sound(snd_dog_pet, 10, false);
     happy = true;
@@ -313,7 +337,6 @@ else if (player_here &amp;&amp; input_padD_p &amp;&amp; !happy &amp;&amp; !pet_d
         { 
         image_alpha = 0;
         } 
-    //insert cool sound &amp; effect;
     }
 
 if (fetch)
@@ -325,6 +348,7 @@ if (fetch)
         {
         if (buried)
             {
+            buried = false;
             audio_play_sound(snd_dog_bite, 10, false);
             other.hspd = 0; 
             other.fetch = false;
@@ -343,12 +367,32 @@ else if (fetch_return)
         fetch_return = false;
         hspd = 0;
         current_x = x;
-        alarm_set(4, 450);
+        alarm_set(4, 300);
         }
     }
 
 //Return home
-if (return_home)
+if (run_away_go)
+    {
+    with (obj_dog_bone)
+        {
+        if (held_dog)
+            {
+            vspd = -2;
+            held_dog = false;
+            }
+        }   
+    movedir_x = 1;
+    if (x &gt;= 744)
+        {
+        instance_create(744, 245, obj_dog_scared);
+        with (obj_noexit) { instance_destroy(); }
+        with (my_arrow) { instance_destroy(); }
+        instance_destroy();
+        }
+    else hspd = 4;
+    }
+else if (return_home)
     {
     with (obj_dog_bone)
         {
@@ -368,18 +412,6 @@ if (return_home)
         { 
         hspd = 3;
         }
-    }
-else if (run_away_go)
-    {
-    movedir_x = 1;
-    if (x &gt;= 744)
-        {
-        instance_create(744, 235, obj_dog_scared);
-        with (obj_noexit) { instance_destroy(); }
-        with (my_arrow) { instance_destroy(); }
-        instance_destroy();
-        }
-    else hspd = 4;
     }
 
 //Animate

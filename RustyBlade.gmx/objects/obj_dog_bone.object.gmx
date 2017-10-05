@@ -34,6 +34,8 @@ thrown = false;
 buried = false;
 held_player = false;
 held_dog = false;
+
+show_throw_prompt = true;
 </string>
           </argument>
         </arguments>
@@ -62,7 +64,7 @@ held_dog = false;
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="3" enumb="1">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -79,14 +81,16 @@ held_dog = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Step
+            <string>///Begin Step
 scr_item_movecollide();
 
+//Randomize pickup sound
 var ind, soundtoplay;
 ind = irandom(1);
 if (ind == 0) soundtoplay = snd_item_pickup_1;
 else soundtoplay = snd_item_pickup_2;
 
+//Spin animation
 if (!grounded &amp;&amp; !held_dog)
     {
     if (held_player)
@@ -97,11 +101,13 @@ if (!grounded &amp;&amp; !held_dog)
     else image_angle += 15;
     }
 
+//Audio
 if (!mute_sfx &amp;&amp; !held_player &amp;&amp; !held_dog &amp;&amp; grounded &amp;&amp; yprevious &lt; y)
     {
     audio_play_sound(snd_snow_bone, 10, false);
     }
-    
+
+//Buried state
 if (grounded &amp;&amp; !buried)
     {
     depth = 1000001;
@@ -110,14 +116,17 @@ if (grounded &amp;&amp; !buried)
     thrown = false;
     }
 
+//Pickup
 if (!menu_open &amp;&amp; !held_player &amp;&amp; player_here &amp;&amp; input_padD_p 
     &amp;&amp; obj_player.playerstate != STATE_PLAYER.combat 
     &amp;&amp; obj_player.playerstate != STATE_PLAYER.carry)
     {
     audio_play_sound(soundtoplay, 10, false);
     held_player = true;
+    buried = false;
     }
 
+//Carry &amp; Throw
 if (!menu_open &amp;&amp; held_player)
     {
     held_dog = false;
@@ -126,14 +135,20 @@ if (!menu_open &amp;&amp; held_player)
         image_alpha = 0;
         show_arrow = false;
         }
-    if (input_B2_p)
+    if (input_B2_p &amp;&amp; obj_player.playerstate != STATE_PLAYER.pet)
         {
+        show_throw_prompt = false;
         audio_play_sound(snd_throw, 10, false);
         held_player = false;
         hspd = obj_player.movedir_x * 3;
         vspd = -6;
         thrown = true;
-        with (obj_dog) { alarm_set(3, 6); } 
+        with (obj_player) 
+            {
+            drink_delay = true;
+            alarm_set(4,6); 
+            }
+        with (obj_dog) { alarm_set(3,6); } 
         }
     else
         {
@@ -141,8 +156,12 @@ if (!menu_open &amp;&amp; held_player)
         y = obj_player.y + 4;
         }
     }
-else if (held_dog) 
+else if (instance_exists(obj_dog) &amp;&amp; held_dog)
     {
+    with (obj_dog)
+        {
+        pet_delay = true;
+        }
     with (my_arrow)
         {
         image_alpha = 0;
@@ -153,7 +172,10 @@ else if (held_dog)
         audio_play_sound(soundtoplay, 10, false);
         held_dog = false;
         held_player = true;
-        obj_dog.pet_delay = true;
+        with (obj_dog) 
+            {
+            alarm_set(7,15);
+            }
         alarm_set(0, 10);
         }
     else
@@ -164,7 +186,35 @@ else if (held_dog)
     }
 else
     { 
-    scr_item_show_arrow();
+    if (obj_player.playerstate != STATE_PLAYER.combat) scr_item_show_arrow();
+    }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (held_player &amp;&amp; show_throw_prompt)
+    {
+    draw_set_font(fnt_screen);
+    draw_set_color(c_white);
+    draw_text(display_get_gui_width() * 0.5 + 152, display_get_gui_height() * 0.5 + 72, "[B2] Throw");
     }
 </string>
           </argument>

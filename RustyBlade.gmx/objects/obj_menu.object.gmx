@@ -30,6 +30,7 @@ image_speed = 0;
 nomenu = false; // Disable menu
 menu_index = 0; // Initial image_index for menu
 
+menu_open_firsttime = false; // Used for button prompt
 disable_menu = false; // Permanent menu disable
 
 //Arrow
@@ -121,10 +122,11 @@ with (obj_player)
 if (levelup) disable_menu = true;
 
 //Open menu
-if (!nomenu &amp;&amp; !disable_menu &amp;&amp; input_B1_p)
+if (!nomenu &amp;&amp; !disable_menu &amp;&amp; input_B1_r)
     {
     if (!menu_open) 
         {
+        menu_open_firsttime = true;
         audio_play_sound(snd_menuopen, 10, false);
         menu_open = true;
         }
@@ -315,6 +317,13 @@ if (menu_open &amp;&amp; menu_index == 4)
         }
     if (message_index &gt; 0) { draw_sprite(spr_arrow_interact_up, arrow_index, display_get_gui_width() * 0.80 + 1, display_get_gui_height() * 0.25 + 11) }
     if (message_index &lt; 9) { draw_sprite(spr_arrow_interact_down, arrow_index, display_get_gui_width() * 0.80 + 1, display_get_gui_height() * 0.75 + 22) }
+    }
+    
+if (!menu_open_firsttime)
+    {
+    draw_set_font(fnt_screen);
+    draw_set_color(c_white);
+    draw_text(32, display_get_gui_height() * 0.5 + 72, "[B1] Menu");
     }
 </string>
           </argument>

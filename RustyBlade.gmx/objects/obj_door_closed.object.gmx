@@ -100,7 +100,7 @@ else if (!player_here)
     }
 
 //Open door
-if ((player_here &amp;&amp; input_padU_p) || ignore_player)
+if ((player_here &amp;&amp; !menu_open &amp;&amp; input_padU_p) || ignore_player)
     {
     if (!door_open)
         {
@@ -118,6 +118,17 @@ if ((player_here &amp;&amp; input_padU_p) || ignore_player)
         door_open = false;
         alarm_set(0, 20);
         }
+    }
+    
+//Dog open door
+if (place_meeting(x, y - 10, obj_dog) &amp;&amp; !door_open)
+    {
+    audio_play_sound(snd_door_open, 10, false);
+    image_alpha = 0;
+    with (my_door) { image_alpha = 1; }
+    with (my_solid) { instance_destroy(); }
+    my_solid = noone;
+    door_open = true;
     }
 </string>
           </argument>

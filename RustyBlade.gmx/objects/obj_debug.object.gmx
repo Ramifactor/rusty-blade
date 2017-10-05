@@ -26,6 +26,34 @@
           <argument>
             <kind>1</kind>
             <string>show_msg_01 = false;
+
+fps_snapshot = 0;
+alarm_set(0,20);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///FPS
+fps_snapshot = fps_real;
+alarm_set(0,20);
 </string>
           </argument>
         </arguments>
@@ -49,10 +77,35 @@
           <argument>
             <kind>1</kind>
             <string>///Debug Text (GUI)
-/*
+
 if (debug_player == true) scr_debug_player();
 
 if (debug_input_keyboard == true) scr_debug_input_keyboard();
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="116">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Restart
+
+game_restart();
 </string>
           </argument>
         </arguments>
@@ -76,7 +129,7 @@ if (debug_input_keyboard == true) scr_debug_input_keyboard();
           <argument>
             <kind>1</kind>
             <string>///Debug Keyboard Input
-/*
+
 if (debug_input_keyboard == 0) debug_input_keyboard = 1;
 else debug_input_keyboard = 0;
 </string>
@@ -102,7 +155,7 @@ else debug_input_keyboard = 0;
           <argument>
             <kind>1</kind>
             <string>///Debug Player
-/*
+
 if (debug_player == 0) debug_player = 1;
 else debug_player = 0;
 </string>
@@ -128,7 +181,7 @@ else debug_player = 0;
           <argument>
             <kind>1</kind>
             <string>///SlowMo
-/*
+
 if (room_speed == 60) room_speed = 4;
 else room_speed = 60;
 </string>
