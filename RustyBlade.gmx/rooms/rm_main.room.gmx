@@ -53,7 +53,6 @@
   <instances>
     <instance objName="obj_dog" x="536" y="241" name="inst_DB31CABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_camera" x="496" y="224" name="inst_FCAB6093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_debug" x="400" y="256" name="inst_CEBD1882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="332" y="244" name="inst_2304D97B" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="680" y="252" name="inst_856871A8" locked="0" code="" scaleX="185.5" scaleY="1.66666662693024" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="-2" y="248" name="inst_DC791FF6" locked="0" code="" scaleX="82.5" scaleY="2.5" colour="4294967295" rotation="0"/>
@@ -99,7 +98,7 @@
     <instance objName="obj_player_block" x="1308" y="224" name="inst_2C77D8A1" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_dog_bone" x="264" y="228" name="inst_2ABC321D" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_dog_dish" x="120" y="245" name="inst_9B146481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_drop_bone" x="336" y="164" name="inst_5596BB2B" locked="0" code="" scaleX="1" scaleY="20" colour="4294967295" rotation="0"/>
+    <instance objName="obj_drop_bone" x="336" y="164" name="inst_5596BB2B" locked="0" code="" scaleX="2" scaleY="22" colour="4294967295" rotation="0"/>
     <instance objName="obj_bed" x="464" y="200" name="inst_3D70CD20" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_block" x="108" y="228" name="inst_CB8D239E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_deer_head" x="498" y="219" name="inst_EB362ACE" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
@@ -110,10 +109,11 @@
     <instance objName="obj_fire" x="498" y="242" name="inst_35B7CD29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fireplace" x="498" y="245" name="inst_802C490B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_snow" x="0" y="240" name="inst_D9B7295B" locked="0" code="" scaleX="82" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ground_snow" x="680" y="240" name="inst_5A939079" locked="0" code="" scaleX="193" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ground_snow" x="680" y="244" name="inst_5A939079" locked="0" code="" scaleX="193" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_stone" x="328" y="240" name="inst_7AFB09AE" locked="0" code="" scaleX="88" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_dog_whine_2" x="1192" y="228" name="inst_F30D83F0" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_bgsoundplayer" x="540" y="256" name="inst_F2CC038B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_drop_bone" x="344" y="164" name="inst_EDE846C5" locked="0" code="" scaleX="2" scaleY="22" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_logcabin" x="0" y="256" w="4" h="4" xo="12" yo="0" id="10000005" name="inst_C0DCB4C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
