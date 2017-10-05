@@ -10,6 +10,7 @@ scr_player_movecollide();
 if (!menu_open && input_B2_p && !drinking && !obj_dog_bone.held_player)
     {
     hspd = 0;
+    drinking = true;
     audio_play_sound(snd_mug_sip, 10, false);
     playerstate = STATE_PLAYER.drink;
     alarm_set(3, 60);
