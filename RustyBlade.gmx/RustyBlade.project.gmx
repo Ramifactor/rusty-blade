@@ -42,6 +42,7 @@
       <sound>sound\snd_mug_sip</sound>
       <sound>sound\snd_place_antler</sound>
       <sound>sound\snd_throw</sound>
+      <sound>sound\snd_wood_hit</sound>
     </sounds>
     <sounds name="Menu">
       <sound>sound\snd_cancel</sound>
@@ -278,6 +279,8 @@
         <object>objects\obj_bed</object>
         <object>objects\obj_chest</object>
         <object>objects\obj_deer_head</object>
+        <object>objects\obj_door_closed</object>
+        <object>objects\obj_door</object>
       </objects>
       <objects name="Lighting">
         <object>objects\obj_chain</object>
@@ -292,8 +295,6 @@
       </objects>
       <object>objects\obj_dog_bone</object>
       <object>objects\obj_dog_dish</object>
-      <object>objects\obj_door</object>
-      <object>objects\obj_door_closed</object>
       <object>objects\obj_interact_arrow_down</object>
       <object>objects\obj_interact_arrow_up</object>
       <object>objects\obj_mug</object>
