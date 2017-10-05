@@ -1,6 +1,6 @@
 ///scr_global_zoom();
 
-if (zoom < zoom_max && (keyboard_check_pressed(vk_add) || keyboard_check_pressed(vk_pageup)))
+if (zoom < zoom_max && (keyboard_check_released(vk_add) || keyboard_check_released(vk_pageup)))
     {
     audio_play_sound(snd_menuopen, 10, false);
     zoom ++;
@@ -9,7 +9,7 @@ if (zoom < zoom_max && (keyboard_check_pressed(vk_add) || keyboard_check_pressed
     alarm_set(0,1); 
     }
 
-if (zoom > 1 && (keyboard_check_pressed(vk_subtract) || keyboard_check_pressed(vk_pagedown)))
+if (zoom > 1 && (keyboard_check_released(vk_subtract) || keyboard_check_released(vk_pagedown)))
     {
     audio_play_sound(snd_menuopen, 10, false);
     zoom --;
