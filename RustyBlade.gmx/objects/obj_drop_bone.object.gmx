@@ -87,19 +87,16 @@ bounced = false;
             }
         }
     }
-else if (instance_exists(obj_dog) &amp;&amp; (obj_dog.fetch_return || obj_dog.return_home) &amp;&amp; place_meeting(x, y, obj_dog))
+else if (instance_exists(obj_dog) &amp;&amp; obj_dog_bone.held_dog &amp;&amp; place_meeting(x - 8, y, obj_dog))
     {
     bounced = true;
     alarm_set(0, 30);
     with (obj_dog) alarm_set(7,15);
     with (obj_dog_bone)
         {
-        if (held_dog)  
-            {
-            held_dog = false;
-            hspd = -1.5;
-            vspd = -3;
-            }
+        held_dog = false;
+        hspd = -1.5;
+        vspd = -3;
         }      
     }
 else if (place_meeting(x, y, obj_dog_bone) &amp;&amp; !bounced)

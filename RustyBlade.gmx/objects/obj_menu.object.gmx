@@ -319,11 +319,11 @@ if (menu_open &amp;&amp; menu_index == 4)
     if (message_index &lt; 9) { draw_sprite(spr_arrow_interact_down, arrow_index, display_get_gui_width() * 0.80 + 1, display_get_gui_height() * 0.75 + 22) }
     }
     
-if (!menu_open_firsttime)
+if (!menu_open_firsttime &amp;&amp; !ignore_player)
     {
     draw_set_font(fnt_screen);
     draw_set_color(c_white);
-    draw_text(32, display_get_gui_height() * 0.5 + 72, "[B1] Menu");
+    draw_text(24, display_get_gui_height() * 0.5 + 72, "[B1] Menu");
     }
 </string>
           </argument>

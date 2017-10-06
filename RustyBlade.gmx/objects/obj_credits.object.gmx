@@ -255,7 +255,7 @@ delaytime = 180;
 if (showtitle &amp;&amp; !hidetitle &amp;&amp; !fadeout)
     {
     if (alpha_title &lt; 1) alpha_title += increment;
-    if (alpha_title == 1)
+    if (alpha_title &gt;= 1)
         {
         fadeout = true;
         alarm_set(1, delaytime);
@@ -264,7 +264,7 @@ if (showtitle &amp;&amp; !hidetitle &amp;&amp; !fadeout)
 else if (showtitle2 &amp;&amp; !hidetitle2 &amp;&amp; !fadeout2)
     {
     if (alpha_title2 &lt; 1) alpha_title2 += increment;
-    if (alpha_title2 == 1)
+    if (alpha_title2 &gt;= 1)
         {
         fadeout2 = true;
         alarm_set(2, delaytime);
@@ -273,7 +273,7 @@ else if (showtitle2 &amp;&amp; !hidetitle2 &amp;&amp; !fadeout2)
 else if (showtitle3 &amp;&amp; !hidetitle3 &amp;&amp; !fadeout3)
     {
     if (alpha_title3 &lt; 1) alpha_title3 += increment;
-    if (alpha_title3 == 1)
+    if (alpha_title3 &gt;= 1)
         {
         fadeout3 = true;
         alarm_set(3, delaytime);
@@ -282,7 +282,7 @@ else if (showtitle3 &amp;&amp; !hidetitle3 &amp;&amp; !fadeout3)
 else if (showtitle4 &amp;&amp; !hidetitle4 &amp;&amp; !fadeout4)
     {
     if (alpha_title4 &lt; 1) alpha_title4 += increment;
-    if (alpha_title4 == 1) 
+    if (alpha_title4 &gt;= 1) 
         {
         fadeout4 = true;
         alarm_set(4, delaytime);
@@ -291,7 +291,7 @@ else if (showtitle4 &amp;&amp; !hidetitle4 &amp;&amp; !fadeout4)
 else if (showtitle5 &amp;&amp; !hidetitle5 &amp;&amp; !fadeout5)
     {
     if (alpha_title5 &lt; 1) alpha_title5 += increment;
-    if (alpha_title5 == 1) 
+    if (alpha_title5 &gt;= 1) 
         {
         fadeout5 = true;
         alarm_set(5, delaytime);
@@ -311,7 +311,7 @@ else if (showtitle6 &amp;&amp; !hidetitle6 &amp;&amp; !fadeout6)
 if (hidetitle)
     {
     if (alpha_title &gt; 0) alpha_title -= increment;
-    if (alpha_title == 0) 
+    if (alpha_title &lt;= 0) 
         {
         showtitle = false;
         hidetitle = false;
@@ -321,7 +321,7 @@ if (hidetitle)
 else if (hidetitle2)
     {
     if (alpha_title2 &gt; 0) alpha_title2 -= increment;
-    if (alpha_title2 == 0) 
+    if (alpha_title2 &lt;= 0) 
         {
         showtitle2 = false;
         hidetitle2 = false;
@@ -331,7 +331,7 @@ else if (hidetitle2)
 else if (hidetitle3)
     {
     if (alpha_title3 &gt; 0) alpha_title3 -= increment;
-    if (alpha_title3 == 0) 
+    if (alpha_title3 &lt;= 0) 
         {
         showtitle3 = false;
         hidetitle3 = false;
@@ -341,7 +341,7 @@ else if (hidetitle3)
 else if (hidetitle4)
     {
     if (alpha_title4 &gt; 0) alpha_title4 -= increment;
-    if (alpha_title4 == 0) 
+    if (alpha_title4 &lt;= 0) 
         {
         showtitle4 = false;
         hidetitle4 = false;
@@ -351,7 +351,7 @@ else if (hidetitle4)
 else if (hidetitle5)
     {
     if (alpha_title5 &gt; 0) alpha_title5 -= increment;
-    if (alpha_title5 == 0) 
+    if (alpha_title5 &lt;= 0) 
         {
         showtitle5 = false;
         hidetitle5 = false;

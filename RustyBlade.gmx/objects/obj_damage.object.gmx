@@ -77,7 +77,7 @@ fade = true;
             <string>///Fade and move up
 y --;
 if (fade) image_alpha -= 0.05;
-if (image_alpha == 0) instance_destroy();
+if (image_alpha &lt;= 0) instance_destroy();
 </string>
           </argument>
         </arguments>
