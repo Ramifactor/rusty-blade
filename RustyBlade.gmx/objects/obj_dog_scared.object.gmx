@@ -162,6 +162,7 @@ else
 if (whine_2)
     {
     alpha_healthbar -= 0.01;
+    if (alpha_healthbar &lt;= 0) alpha_healthbar = 0;
     }
     
 //Death

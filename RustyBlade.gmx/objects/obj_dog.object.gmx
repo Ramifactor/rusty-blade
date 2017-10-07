@@ -394,6 +394,7 @@ if (run_away_go)
     }
 else if (return_home)
     {
+    pet_delay = false;
     with (obj_dog_bone)
         {
         if (held_dog)
