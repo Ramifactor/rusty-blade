@@ -52,5 +52,12 @@ key_held = false;
 drinking = false;
 drink_delay = false;
 
+//Footsteps
+can_play = false;
+can_play2 = false;
+fs_sound = snd_fs_stone;
+timeline_index = tml_player_footstep;
+timeline_running = false;
+
 //Unmute SFX
 alarm_set(2, 30);
