@@ -27,12 +27,6 @@
             <kind>1</kind>
             <string>///Initialize Player
 scr_player_init();
-
-can_play = false;
-can_play2 = false;
-fs_sound = snd_fs_stone;
-timeline_index = tml_player_footstep;
-timeline_running = false;
 </string>
           </argument>
         </arguments>
