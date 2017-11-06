@@ -224,6 +224,8 @@
     </scripts>
     <scripts name="Player">
       <script>scripts\scr_player_animate.gml</script>
+      <script>scripts\scr_player_footstep1.gml</script>
+      <script>scripts\scr_player_footstep2.gml</script>
       <script>scripts\scr_player_init.gml</script>
       <script>scripts\scr_player_movecollide.gml</script>
       <script>scripts\scr_player_xmove.gml</script>
