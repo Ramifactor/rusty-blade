@@ -110,10 +110,11 @@
     <instance objName="obj_fireplace" x="498" y="245" name="inst_802C490B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_snow" x="0" y="240" name="inst_D9B7295B" locked="0" code="" scaleX="82" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground_snow" x="680" y="244" name="inst_5A939079" locked="0" code="" scaleX="193" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ground_stone" x="328" y="240" name="inst_7AFB09AE" locked="0" code="" scaleX="88" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ground_stone" x="328" y="248" name="inst_7AFB09AE" locked="0" code="" scaleX="88" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_dog_whine_2" x="1192" y="228" name="inst_F30D83F0" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_bgsoundplayer" x="540" y="256" name="inst_F2CC038B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_drop_bone" x="344" y="164" name="inst_EDE846C5" locked="0" code="" scaleX="2" scaleY="22" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ground_stone" x="328" y="244" name="inst_3766872E" locked="0" code="" scaleX="35" scaleY="2.66666674613953" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_logcabin" x="0" y="256" w="4" h="4" xo="12" yo="0" id="10000005" name="inst_C0DCB4C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
