@@ -104,6 +104,7 @@ if (player_here &amp;&amp; input_padD_p &amp;&amp; !sword_spawned)
         playerstate = STATE_PLAYER.kneel;
         }
     with(my_arrow) { instance_destroy(); } 
+    audio_play_sound(snd_throw, 10, false);
     with (instance_create(obj_player.x, obj_player.y, obj_sword))
         {
         hspd = -1;

@@ -30,8 +30,6 @@ scr_item_init();
 
 scr_item_arrow_init();
 
-if (!mute_sfx) audio_play_sound(snd_throw, 10, false);
-
 thrown = false;
 buried = false;
 </string>
@@ -81,7 +79,7 @@ if(!thrown)
         }
     }
 
-if (!thrown &amp;&amp; player_here &amp;&amp; input_padD_p)
+if (!menu_open &amp;&amp; !thrown &amp;&amp; player_here &amp;&amp; input_padD_p)
     {
     with (obj_player) 
         {

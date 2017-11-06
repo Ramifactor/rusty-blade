@@ -180,7 +180,7 @@ else debug_player = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///SlowMo
+            <string>///Slow Motion
 
 if (room_speed == 60) room_speed = 4;
 else room_speed = 60;
