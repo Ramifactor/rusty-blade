@@ -1,7 +1,7 @@
 ///scr_player_animate()
 image_xscale = movedir_x; // Flip sprite when moving left
 
-var swing, soundtoplay;//randomize sword swing sound effect
+var swing, soundtoplay; //randomize sword swing sound effect
 swing = irandom(1);
 if (swing == 0) soundtoplay = snd_sword_swing_1;
 else soundtoplay = snd_sword_swing_2;
@@ -60,7 +60,7 @@ else if (playerstate == STATE_PLAYER.combat)
     }
 else if (hspd != 0)
     {
-    sprite_index = spr_player_walk;//walk
+    sprite_index = spr_player_walk; //walk
     image_speed = 0.1;
     }
 else
@@ -68,4 +68,3 @@ else
     sprite_index = spr_player_idle; //idle
     image_speed = 1/30;
     }
-
