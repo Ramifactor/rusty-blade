@@ -87,7 +87,8 @@ bounced = false;
             }
         }
     }
-else if (instance_exists(obj_dog) &amp;&amp; obj_dog_bone.held_dog &amp;&amp; place_meeting(x - 8, y, obj_dog))
+else if (instance_exists(obj_dog) &amp;&amp; (obj_dog.x &gt; obj_dog.xprevious)
+         &amp;&amp; obj_dog_bone.held_dog &amp;&amp; place_meeting(x - 8, y, obj_dog))
     {
     bounced = true;
     alarm_set(0, 30);
