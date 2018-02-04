@@ -1,5 +1,5 @@
 # Rusty Blade Source Code
-**Current Version: 1.4**
+**Current Version: 1.4.2**
 
 #### This is the official home of the GameMaker Source Code for Rusty Blade, a game created by Ramifactor for AGBIC 2017.
 
@@ -7,7 +7,7 @@ The game **source code** is being released under a free license to satisfy the [
 
 Please read the attached [LICENSE.txt](LICENSE.txt) if you are considering using this work for your project.
 
-### Disclaimer: I suck at this
+### Disclaimer: I suck at this.
 
 As a general rule, I have no idea what I'm doing. The source code is a product of my limited GML knowledge, therefore it probably sucks. Treat it like it's someone's first game, because that's what it is.
 
