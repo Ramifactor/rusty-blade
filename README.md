@@ -9,7 +9,7 @@ Please read the attached [LICENSE.txt](LICENSE.txt) if you are considering using
 
 ### Disclaimer: I suck at this.
 
-As a general rule, I have no idea what I'm doing. The source code is a product of my limited GML knowledge, therefore it probably sucks. Treat it like it's someone's first game, because that's what it is.
+As a general rule, I have no idea what I'm doing. The source code is a product of my limited GML knowledge at the time this game was made. Treat it like it's someone's first game, because that's what it is. Constructive feedback is always appreciated.
 
 ### Download the game for free: [Rusty Blade (itch.io)](http://ramifactor.itch.io/rusty-blade)
 
@@ -22,7 +22,7 @@ As a general rule, I have no idea what I'm doing. The source code is a product o
 * Source code and graphical assets created and developed by Ramifactor
 * Music by Scott Buckley - www.scottbuckley.com.au
 * SFX created by Ramifactor from original recordings by:
-  * jorickhoofd, bajko, btherad2000, cabled_mess, ppfpower87, denao270, dobroide, Dymewiz, iujhu, j1987, jasonelrod, LiamG_SFX, lucktheone, littlerobotsoundfactory, toefur, MrAuralization, naturenutt, DamianMinnie, nickyg11p, Samulis, Omar Alvarado, swuing, pogmothoin, 7778, Yap_Audio_Production and Esper Studio
+	* jorickhoofd, bajko, btherad2000, cabled_mess, ppfpower87, denao270, dobroide, Dymewiz, iujhu, j1987, jasonelrod, LiamG_SFX, lucktheone, littlerobotsoundfactory, toefur, MrAuralization, naturenutt, DamianMinnie, nickyg11p, Samulis, Omar Alvarado, swuing, pogmothoin, 7778, Yap_Audio_Production and Esper Studio
 
 
 
