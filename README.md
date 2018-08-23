@@ -14,7 +14,7 @@ As a general rule, I have no idea what I'm doing. The source code is a product o
 ### Download the game for free: [Rusty Blade (itch.io)](http://ramifactor.itch.io/rusty-blade)
 
 * Game discussion: https://ramifactor.itch.io/rusty-blade/community
-* Contact: [@Ramifactor](https://twitter.com/ramifactor) [@Ramifactor@mastodon.gamedev.place](https://mastodon.gamedev.place/@ramifactor) or email info@ramifactor.com
+* Contact: [Twitter](https://twitter.com/ramifactor); [Mastodon](https://mastodon.gamedev.place/@ramifactor) or email info at ramifactor dot com
 * Special thanks to Ludonaut and Dom for hosting AGBICjam 2017
 
 ### Game Credits
