@@ -3,9 +3,7 @@
 
 #### This is the official home of the [GameMaker](http://store.yoyogames.com/downloads/gm-studio/release-notes-studio.html) Source Code for Rusty Blade, a game created for [AGBICjam 2017](https://itch.io/jam/a-game-by-its-cover-2017).
 
-The game **source code** is being released under a free license to satisfy the [Remember to FLOSS!](http://itch.io/jam/a-game-by-its-cover-2017/topic/140342/diversifiers) diversifier requirement of the AGBIC jam.
-
-Please read the included [LICENSE.txt](LICENSE.txt) if you are considering using this work for your project.
+The game **source code** is being released under a free license to satisfy the [Remember to FLOSS!](http://itch.io/jam/a-game-by-its-cover-2017/topic/140342/diversifiers) diversifier requirement of the AGBIC jam. Please read the included [LICENSE.txt](LICENSE.txt) if you are considering using this work for your project.
 
 ### Disclaimer:
 
