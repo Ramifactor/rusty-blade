@@ -1,11 +1,11 @@
 
 =============================
-Rusty Blade User License v1.0
+Rusty Blade User License v1.1
 =============================
 
-Copyright (c) 2017-2018 John Damiani.
+Copyright (c) 2017-2019 John Yellow.
 
-Last Updated February 4th, 2018
+Last Updated December 12th, 2019
 
 Everyone is permitted to copy and distribute verbatim copies of this license document; however,
 changing it is not permitted.
@@ -13,7 +13,7 @@ changing it is not permitted.
 
 Definitions:
 
-"Ramifactor" is defined as John Damiani.
+"Ramifactor" is defined as John Yellow.
 
 "Package" means the collection of files distributed by Ramifactor, and derivatives of that 
 collection and/or of those files. A given Package may consist of either the Standard Version, 
