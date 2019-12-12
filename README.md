@@ -15,6 +15,7 @@ As a general rule, I have no idea what I'm doing. The source code is a product o
 * Contact:
 	* Twitter: [@Ramifactor](https://twitter.com/ramifactor); [@johnyellow](https://twitter.com/johnyellow)
 	* Mastodon: [@Ramifactor@mastodon.gamedev.place](https://mastodon.gamedev.place/@ramifactor)
+	            [@johnyellow@mastodon.social](https://mastodon.social/@johnyellow)
 	* Email: info at ramifactor dot com
 * Special thanks to [Ludonaut](https://twitter.com/ludonaut) and [Dom](https://twitter.com/zerstoerer) for hosting [AGBICjam](https://itch.io/jam/a-game-by-its-cover-2017) 2017.
 
